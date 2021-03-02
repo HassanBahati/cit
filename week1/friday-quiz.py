@@ -33,8 +33,5 @@ def sum(x, y):
 print(sum(2, 2))
 
 #print out all odd numbers 1 to 100 using the modulo operator 
-for i in range(10):
-    i % 2 != 0
-    print(i)
 
 #write an algorithm to detect prime numbers . hint isPrime()
