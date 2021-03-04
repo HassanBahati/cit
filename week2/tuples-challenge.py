@@ -4,6 +4,7 @@ wrtie a tuple 1,2,3,4,5,6,7,8,9,10,10,11,12
 replace 5 with a
 remove two 10s from the tuple 
 return the modified tuple
+note : tuples can also be created without parentheses
 '''
 
 
@@ -25,3 +26,4 @@ def my_tuple():
     return my_tuple
 
 print(my_tuple())
+
