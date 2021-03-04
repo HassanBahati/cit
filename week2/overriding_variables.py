@@ -22,3 +22,7 @@ age = 100
 print(age)
 print(type(age))
 
+#solve the sytax error
+print(game)
+game = 'football'
+
