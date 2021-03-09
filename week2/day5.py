@@ -14,4 +14,3 @@ printing out emojis with CLDR names
 print('hello', '\N{winking face}')
 print('\U0001F923')
 
-
