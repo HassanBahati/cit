@@ -1,4 +1,5 @@
-employees = {'id': {201, 600}, 
+employees = {'id': [201, 600],
                 'name': ['Maximo', 'Josephine'],
-                'bonus': False, True}
+                'bonus': [1000, 2000]}
 
+print(employees)
