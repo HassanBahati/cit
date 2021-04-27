@@ -29,5 +29,13 @@ print('---------------------------------')
 chr(65)
 
 print(chr(65), chr(97))
-
+print('---------------------------------')
 #class
+class Hughey:
+    def say_hi(self):
+        print('Hi CIT students')
+    # define a variable 
+Hughey.say_hi = classmethod(Hughey.say_hi)
+
+#calling function
+Hughey.say_hi()
