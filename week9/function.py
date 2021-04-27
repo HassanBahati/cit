@@ -51,7 +51,11 @@ class Da_Shone:
     def Birthyear(cls, name, year):
         return cls(name, date.today().year-year)
     
+    @staticmethod
+    def Adult(age):
+        return age > 18
+
     CIT_student_1 = Da_Shone('freddrich', 46)
     CIT_student_2 = Da_Shone('samuel', 12)
 
-Da_Shone()
+    CIT_student_1 = Da_Shone('freddrich', 1975)
