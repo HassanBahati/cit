@@ -42,3 +42,16 @@ Hughey.say_hi()
 
 print('---------------------------------')
 print('---------------------------------')
+
+class Da_Shone:
+    def __init__(self, name, age):
+        self.name = name 
+        self.age = age 
+    @classmethod
+    def Birthyear(cls, name, year):
+        return cls(name, date.today().year-year)
+    
+    CIT_student_1 = Da_Shone('freddrich', 46)
+    CIT_student_2 = Da_Shone('samuel', 12)
+
+Da_Shone()
