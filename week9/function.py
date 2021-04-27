@@ -24,3 +24,8 @@ print(bool(0.5)) #ask to check if 0.5 is a float
 print(bool(7))
 
 print('---------------------------------')
+
+#character function
+chr(65)
+
+print(chr(65))
