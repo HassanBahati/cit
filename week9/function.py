@@ -39,3 +39,6 @@ Hughey.say_hi = classmethod(Hughey.say_hi)
 
 #calling function
 Hughey.say_hi()
+
+print('---------------------------------')
+print('---------------------------------')
