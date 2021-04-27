@@ -12,3 +12,9 @@ print(all({'*'})) #iteratable is been able to access through an item from index 
 bin(7)
 print(bin(7))
 
+print('---------------------------------')
+
+#bool function
+bool(0.5)
+print(bool(0.5))
+print(bool(7))
