@@ -28,4 +28,6 @@ print('---------------------------------')
 #character function
 chr(65)
 
-print(chr(65))
+print(chr(65), chr(97))
+
+#class
