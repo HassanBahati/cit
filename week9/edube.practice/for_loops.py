@@ -21,3 +21,6 @@ itr=iter(l5)
 print(next(itr))
 print(next(itr))
 print(next(itr))
+
+#range
+print(list(range(0,10,2)))
