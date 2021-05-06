@@ -15,3 +15,20 @@ print(heroes)
 
 #printing list from a dict
 print(list(heroes.items()))
+
+#get lists and keys 
+print(list(heroes.keys()))
+
+#only values
+print(list(heroes.values()))
+
+#deleting froma  dictionary
+del heroes['Flash']
+#delete an item and return it
+print(heroes.pop('Batman'))
+
+print(list(heroes.items()))
+print('--------------')
+#cycle throgh dict
+for k in heroes:
+    print(k)
