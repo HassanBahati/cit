@@ -6,3 +6,4 @@ print('1st', t1[0])
 print('lst', t1[-1])
 print('every other', t1[0:-1:2])
 print('reverse', t1[::-1])
+
