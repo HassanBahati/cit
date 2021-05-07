@@ -14,3 +14,16 @@ print(end='')
 x=2.0
 y=4
 print(y//x)
+
+my_lst=[10,1,8,3,5]
+total=0
+for i in range(len(my_lst)):
+    total+=my_lst[i]
+print(total)
+
+my_lst=[10,1,8,3,5]
+total=0
+for i in my_lst:
+    total+=i
+print(total)
+
