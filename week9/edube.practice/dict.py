@@ -9,6 +9,11 @@ heroes={
 #length
 print('length', len(heroes))
 
+print('-------------------')
+
+for k in heroes:
+    print(k)
+
  #changing a value
 heroes['Flash']='Barry Allen'
 print(heroes) 
@@ -32,3 +37,14 @@ print('--------------')
 #cycle throgh dict
 for k in heroes:
     print(k)
+
+
+
+t1=(1,2)
+t2=(3,4)
+t3=(5,6)
+t1,t2,t3=t2,t3,t1
+print(t1,t2,t3)
+
+x=input()
+print(0)
