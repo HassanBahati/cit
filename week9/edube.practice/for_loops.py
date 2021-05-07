@@ -12,7 +12,7 @@ for x in l4:
 
 #cycle through a defined list
 for x in [2,4,6]:
-    print(x  )
+    print(x)
 
 print('------------------------------')
 #iterators-help to cycle trhough values, rinting one by one 
