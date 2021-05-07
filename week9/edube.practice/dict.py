@@ -48,5 +48,15 @@ t1,t2,t3=t2,t3,t1
 print(t1,t2,t3)
 
 #input prints strings 
-x=input()
+# x=input()
 print(x)
+
+print('----------------')
+
+#(2,1) (1,2) 12 21
+dct={}
+dct['1']=(1,2)
+dct['2']=(2,1)
+
+for x in dct.keys():
+    print(dct[x][1], end='')
