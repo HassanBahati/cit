@@ -8,3 +8,9 @@ print('every other', t1[0:-1:2])
 print('reverse', t1[::-1])
 
 print(end='')
+
+
+#all divisions with floats inclusive offer a float as a result 
+x=2.0
+y=4
+print(y//x)
