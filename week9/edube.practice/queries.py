@@ -19,9 +19,14 @@ def func(lst):
 print(func(my_list))
 
 #modulo
-x=int(input())
-y=int(input())
-x=x%y
-x=x%y
-y=y%x
-print(y)
+
+
+print(1^0)
+
+my_list=[0 for i in range(1,3)]
+print(my_list)
+
+i=2
+while i >=0:
+    print(i)
+    i-=2
