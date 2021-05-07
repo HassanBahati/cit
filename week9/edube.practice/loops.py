@@ -26,7 +26,8 @@ while len(l4):
 #infinity loop priting one star every line
 i=0
 while i<i+2:
-    i+=1
+    # i+=1
     print('*')
+    i+=1
 else:
     print('*')
