@@ -22,3 +22,11 @@ while w2 <= 20:
 l4=[1,3,3.14,"Derrick"]
 while len(l4):
     print(l4.pop(0))
+
+#infinity loop priting one star every line
+i=0
+while i<i+2:
+    i+=1
+    print('*')
+else:
+    print('*')
