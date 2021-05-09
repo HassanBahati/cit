@@ -12,7 +12,10 @@ print(a.itemsize)
 print(a.dtype)
 
 #shape of array - cols and rows
-a=np.array(1,2,3,4,5,6,7)
+a=np.array([(1,2,3,4,5,6,7),(8,9,10,11,12,1,14)])
 
 #size of array
 print(a.size)
+
+print(a.shape)
+
