@@ -7,3 +7,6 @@ print(a.ndim)
 
 #finding byte sixe of each element
 print(a.itemsize)
+
+#data type in array 
+print(a.dtype)
