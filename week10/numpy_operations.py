@@ -10,3 +10,9 @@ print(a.itemsize)
 
 #data type in array 
 print(a.dtype)
+
+#shape of array - cols and rows
+a=np.array(1,2,3,4,5,6,7)
+
+#size of array
+print(a.size)
