@@ -10,4 +10,4 @@ print(np.exp(ar))
 print(np.log(ar))
 
 #log base 10
-print(np.log10(ar))
+print(np.log10(ar)) 
